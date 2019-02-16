@@ -1,0 +1,140 @@
+body {
+	font: 300 14px/1.8 'Raleway', sans-serif;
+	color: #222222; /*#666;*/
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 15px;
+}
+h1{
+	left: 43.5%;
+	position: absolute;
+
+}
+/* ---------------------------------------------- /*
+ * Preloader
+/* ---------------------------------------------- */
+
+#preloader {
+	background: #FFF;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+#title_fade h1 {
+	top: 0;
+	left: 43.5%;
+	position: fixed;
+
+
+}
+
+#status {
+	background-image: url(../static/preloader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+
+}
+
+#status p {
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#hide_footer {
+
+	text-align: center;
+	background: #FFF;
+	color: #222;
+ 	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+
+}
+
+#hide_footer p {
+	font-size: 16px;
+}
+
+#my_plot{
+
+	height: 400px;
+	left: 33%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 33%;
+	width: 800px;
+}
+
+#footer {
+
+	text-align: center;
+	background: #222222;
+	color: rgba(255, 255, 255, .2);
+ 	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+
+}
+
+
+#verdict{
+	left: 60%;
+	top: 10%;
+	position: absolute;
+	color: #222222;
+}
+
+#score{
+	left: 30%;
+	top: 10%;
+	position: absolute;
+	color: #222222;
+}
+
+
+#calculation {
+	bottom: 20%;
+	position: absolute;
+	left: 42.5%
+}
+
+
+#footer a {
+	/*width: 36px;
+	height: 36px;*/
+
+	text-decoration: none;
+	color: rgba(255, 255, 255, .2);
+
+}
+
+#footer a:hover {
+	border: 1px solid rgba(255, 255, 255, .5);
+	color: rgba(255, 255, 255, .8);
+
+}
+
